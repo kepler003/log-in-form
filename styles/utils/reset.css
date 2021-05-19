@@ -37,8 +37,17 @@ body {
   font-size: 1.6rem;
 }
 
-input, textarea {
-	border: 1px solid var(--gray-4);
+input,
+textarea {
+	padding: var(--size-4) var(--size-3);
+	border: 1px solid var(--gray-3);
+	transition: border 150ms ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+	border: 1px solid var(--gray-5);
 }
 
 /* HTML5 display-role reset for older browsers */
