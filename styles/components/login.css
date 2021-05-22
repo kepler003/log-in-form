@@ -1,0 +1,22 @@
+
+.login {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: var(--shadow-3);
+}
+
+.login__box {
+  width: 100%;
+  padding: var(--size-6) var(--size-5);
+}
+
+.login__form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.login__input:nth-child(n + 2) {
+  margin-top: var(--size-5);
+}
