@@ -6,9 +6,46 @@
   position: relative;
 }
 
+.input__box--inner {
+  width: 100%;
+}
+
+/* Input */
+
 .input {
 	width: 100%;
 	padding: var(--size-3);
 	border-radius: var(--size-1);
 	transition: border 150ms ease-in-out;
+}
+
+.input--with-left-elem {
+  padding-left: calc(4.7rem + var(--size-3));
+}
+
+/* Input additional elements */
+
+.input__elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.7rem;
+  height: 4.7rem;
+  color: var(--gray-4);
+  transition: border 150ms ease-in-out;
+  position: absolute;
+  top: 0;
+}
+
+.input__elem * {
+  color: var(--gray-4);
+}
+
+.input__elem--left {
+  border-right: 1px solid var(--gray-3);
+  left: 0;
+}
+
+.input:focus ~ .input__elem--left {
+  border-right-color: var(--gray-5);
 }
