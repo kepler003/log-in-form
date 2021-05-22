@@ -39,9 +39,12 @@ body {
 
 input,
 textarea {
-	padding: var(--size-3) var(--size-2);
+	padding: 0.8rem;
 	border: 1px solid var(--gray-3);
-	transition: border 150ms ease-in-out;
+}
+
+input::placeholder {
+	color: var(--gray-4);
 }
 
 input:focus,
