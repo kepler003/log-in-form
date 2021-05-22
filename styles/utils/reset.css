@@ -39,7 +39,7 @@ body {
 
 input,
 textarea {
-	padding: var(--size-4) var(--size-3);
+	padding: var(--size-3) var(--size-2);
 	border: 1px solid var(--gray-3);
 	transition: border 150ms ease-in-out;
 }
