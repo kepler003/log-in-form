@@ -1,0 +1,14 @@
+
+/* Cannot have a padding! */
+.input__box {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+}
+
+.input {
+	width: 100%;
+	padding: var(--size-3);
+	border-radius: var(--size-1);
+	transition: border 150ms ease-in-out;
+}
