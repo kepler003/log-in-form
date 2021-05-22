@@ -19,6 +19,10 @@
 	transition: border 150ms ease-in-out;
 }
 
+.input:focus {
+  border: 1px solid var(--primary-5);
+}
+
 .input--with-left-elem {
   padding-left: calc(4.7rem + var(--size-3));
 }
@@ -41,11 +45,15 @@
   color: var(--gray-4);
 }
 
-.input__elem--left {
-  border-right: 1px solid var(--gray-3);
-  left: 0;
+.input:focus ~ .input__elem * {
+  color: var(--primary-5);
 }
 
 .input:focus ~ .input__elem--left {
-  border-right-color: var(--gray-5);
+  border-right-color: var(--primary-5);
+}
+
+.input__elem--left {
+  border-right: 1px solid var(--gray-3);
+  left: 0;
 }
