@@ -55,7 +55,7 @@
   align-items: center;
   width: 4rem;
   height: 4rem;
-  background-color: var(--gray-3);
+  background-color: hsla(0, 0%, 0%, 0.15);
   transition: background-color 150ms ease-in-out;
   position: absolute;
   top: 0;
@@ -67,28 +67,6 @@
   left: 0;
 }
 
-.button:hover .button__elem {
-  background-color: var(--gray-4);
-}
-
-/* Additional elements - primary button */
-
-.button--primary .button__elem {
-  background-color: var(--primary-6);
+.button__elem--light {
   color: var(--white);
-}
-
-.button--primary:hover .button__elem {
-  background-color: var(--primary-7);
-}
-
-/* Additional elements - dark primary button */
-
-.button--dark-primary .button__elem {
-  background-color: var(--primary-7);
-  color: var(--white);
-}
-
-.button--dark-primary:hover .button__elem {
-  background-color: var(--primary-9);
 }
