@@ -51,3 +51,28 @@
 .login__register {
   margin-right: auto;
 }
+
+/* Separator */
+
+.login__separator {
+  display: flex;
+  align-items: center;
+  margin-top: var(--size-5);
+}
+
+.login__separator::before,
+.login__separator::after {
+  content: "";
+  display: block;
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--gray-3);
+}
+
+.login__separator:before {
+  margin-right: var(--size-3);
+}
+
+.login__separator:after {
+  margin-left: var(--size-3);
+}
