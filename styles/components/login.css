@@ -20,3 +20,17 @@
 .login__input-box:nth-child(n + 2) {
   margin-top: var(--size-5);
 }
+
+/* Form footer */
+
+.login__form-footer {
+  justify-content: center;
+  margin-top: var(--size-5);
+}
+
+.login__submit-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: var(--size-5);
+}

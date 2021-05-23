@@ -54,3 +54,22 @@
   border-right: 1px solid var(--gray-3);
   left: 0;
 }
+
+/* Checkbox */
+
+.input--checkbox {
+  width: var(--size-4);
+  height: var(--size-4);
+}
+
+.input--checkbox:hover {
+  cursor: pointer;
+}
+
+.input--checkbox + label:hover {
+  cursor: pointer;
+}
+
+.input--left-checkbox {
+  margin-right: var(--size-3);
+}
