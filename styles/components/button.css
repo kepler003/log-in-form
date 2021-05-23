@@ -1,0 +1,25 @@
+
+/* Button  */
+
+.button {
+	padding: var(--size-3);
+  background-color: var(--gray-2);
+	border-radius: var(--size-1);
+	transition: background-color 150ms ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--gray-3);
+}
+
+/* Button primary */
+
+.button--primary {
+  background-color: var(--primary-5);
+  color: var(--white);
+}
+
+.button--primary:hover {
+  background-color: var(--primary-6);
+}
