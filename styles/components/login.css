@@ -17,6 +17,6 @@
   flex-flow: column nowrap;
 }
 
-.login__input:nth-child(n + 2) {
+.login__input-box:nth-child(n + 2) {
   margin-top: var(--size-5);
 }
