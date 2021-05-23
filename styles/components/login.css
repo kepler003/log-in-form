@@ -9,6 +9,9 @@
 
 .login__box {
   width: 100%;
+}
+
+.login__box--left {
   padding: var(--size-6) var(--size-5);
 }
 
@@ -85,4 +88,29 @@
 
 .login__other--twitter {
   margin-top: var(--size-4);
+}
+
+/* sm width */
+
+@media only screen and (min-width: 576px) {
+
+  .login {
+    max-width: var(--size-14);
+    border-radius: var(--size-2);
+  }
+
+  .login__box--left {
+    padding: var(--size-8);
+  }
+
+  /* Form footer */
+
+  .login__form-footer {
+    justify-content: space-between;
+  }
+
+  .login__submit-box {
+    width: auto;
+    margin-top: 0;
+  }
 }
