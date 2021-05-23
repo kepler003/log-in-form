@@ -1,4 +1,5 @@
 
 *[class*="flaticon-"] {
   display: flex;
+  color: inherit;
 }
