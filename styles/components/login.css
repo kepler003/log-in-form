@@ -76,3 +76,13 @@
 .login__separator:after {
   margin-left: var(--size-3);
 }
+
+/* Other login options */
+
+.login__other--facebook {
+  margin-top: var(--size-5);
+}
+
+.login__other--twitter {
+  margin-top: var(--size-4);
+}
