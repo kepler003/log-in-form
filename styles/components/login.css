@@ -35,6 +35,11 @@
   margin-top: var(--size-5);
 }
 
+.login__remember-box {
+  display: flex;
+  align-items: center;
+}
+
 .login__submit-box {
   display: flex;
   justify-content: center;
