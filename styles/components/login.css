@@ -15,6 +15,10 @@
   padding: var(--size-6) var(--size-5);
 }
 
+.login__box--right {
+  display: none;
+}
+
 .login__form {
   display: flex;
   flex-flow: column nowrap;
@@ -95,7 +99,7 @@
 @media only screen and (min-width: 576px) {
 
   .login {
-    max-width: var(--size-14);
+    width: var(--size-14);
     border-radius: var(--size-2);
   }
 
@@ -112,5 +116,28 @@
   .login__submit-box {
     width: auto;
     margin-top: 0;
+  }
+}
+
+/* lg width */
+
+@media only screen and (min-width: 992px) {
+
+  .login {
+    width: 90rem;
+    overflow: hidden;
+  }
+
+  .login__box {
+    width: 50%;
+  }
+
+  .login__box--right {
+    display: block;
+    background-color: var(--gray-4);
+    background-image: url("../../photos/palmtree.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
